@@ -1,0 +1,327 @@
+﻿
+p {
+    font-family: 'Secular One', sans-serif;
+    color:darkcyan;
+    font-size: 35px;
+}
+body {
+ 
+    background-image: url('images/backlogo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ariach{
+    width:20%;
+    height:25%;
+
+}
+.cover{
+   display:none;
+}
+#cover1 {
+    z-index:10;
+    position: absolute;
+    width: 65.7vh;
+    height: 43vh;
+    background-color: white;
+    opacity: 0.5;
+}
+#cover2 {
+    z-index: 10;
+    position: absolute;
+    left: 55.25%;
+    width: 65.7vh;
+    height: 43vh;
+    margin-left: 8.7%;
+    background-color: white;
+    opacity: 0.5;
+}
+/*תורות וניקוד*/
+#player1 {
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    direction: rtl;
+    display: inline;
+}
+
+#player2 {
+    position: absolute;
+    right: 72%;
+    top: 50%;
+    display: inline;
+    direction: rtl;
+}
+
+
+
+.grid-cotainer {
+    position: absolute;
+    top:45%;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(11,1fr);
+    /*grid-gap: 30px;*/
+    width:75vh;
+    height: 75vh;
+    margin-left: 28%;
+}
+
+#circle1 {
+    -ms-grid-column: 5 /8;
+    grid-column: 5 /8;
+    -ms-grid-row: 1 /4;
+    grid-row: 1 /4;
+}
+
+#circle2 {
+  
+    -ms-grid-column: 9 /12;
+    grid-column: 9 /12;
+    -ms-grid-row: 3 /6;
+    grid-row: 3 /6;
+}
+
+#circle3 {
+    -ms-grid-column: 2 /5;
+    grid-column: 2 /5;
+    -ms-grid-row: 6 /9;
+    grid-row: 6 /9;
+}
+
+#circle4 {
+    
+    -ms-grid-column: 8 /11;
+    grid-column: 8 /11;
+    -ms-grid-row: 6 /9;
+    grid-row: 6 /9;
+}
+
+#circle5 {
+   
+    -ms-grid-column: 1 /4;
+    grid-column: 1 /4;
+    -ms-grid-row: 3 /6;
+    grid-row: 3 /6;
+}
+#ariach-1 {
+    -ms-grid-column: 4 /9;
+    grid-column: 4 /9;
+    -ms-grid-row: 4 /6;
+    grid-row: 4 /6;
+}
+    #ariach-1 >img{
+        width:14%;
+        margin:1%;   
+    }
+    .circle {
+        background-image: url(images/circle.png);
+        background-size: contain;
+        
+        background-repeat: no-repeat;
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+.circle > img {
+    width: 60%;
+}
+.flex {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.flex1 {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+   
+}
+.tbl {
+    width: 31vh;
+    height: 31vh;
+    border-spacing:5px;
+    
+}
+#tbleright{
+    margin-left:30%;
+}
+.minus {
+    margin-top: 6%;
+    width: 47.5vh;
+    height: 7.5vh;
+    border-spacing:10px;
+}
+
+.backboard {
+    width:67vh;
+    height:60vh;
+    background-image: url('images/board.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.dirTbl{
+    direction:rtl;
+}
+.margin {
+    margin-left: 9%;
+}
+
+
+.arOn{
+ 
+   width:100%;
+   height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/*.tdminus{
+    width: 14%;
+    
+    
+}*/
+#left1{
+    direction:rtl;
+}
+#right1{
+    direction:rtl;
+}
+main{
+     margin:3%;
+ }
+
+.margintop{
+    margin-top:20%;
+}
+.marginleft{
+    margin-left:32%;
+}
+.nekud{
+    margin:2%;
+}
+
+td{
+    position:relative;
+    width:20%;
+    height:20%;
+}
+
+#winner1 {
+    left:36%;
+    position:absolute;
+    top:10%;
+    font-family: 'Secular One', sans-serif;
+    font-size:70px;
+    animation: rainbow 7s linear infinite;
+}
+#winner2 {
+    position: absolute;
+    top:20%;
+    left:36%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 70px;
+    animation: rainbow 7s linear infinite;
+}
+@keyframes rainbow {
+    0%, 30% {
+        color: #EB024A;
+    }
+
+    5% {
+        color: #FCE35A;
+    }
+
+    10% {
+        color: #04AD82;
+    }
+
+    15% {
+        color: #05A9ED;
+    }
+
+    20% {
+        color: #FB85DC;
+    }
+
+    25% {
+        color: #FD7C14;
+    }
+}
+.move{
+    margin-left:1%
+}
+
+.under {
+   
+    background-color:white;
+    opacity:0.4;
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+  
+}
+
+#button2{
+    z-index:20;
+    position:absolute;
+    top:60%;
+    left:45%;
+    font-family: 'Secular One', sans-serif;
+    font-size:20px;
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 13%;
+    margin-left:20%;
+}
+#button1{
+    z-index:20;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 13%;
+    margin-left: 20%;
+}
+
+    #button1:hover {
+        opacity: 0.8;
+    }
+    #button2:hover {
+        opacity: 0.8;
+    }
+#undr {
+    z-index: 12;
+}
+h2 {
+    z-index: 13;
+}
+/*#btns {
+    z-index: 20;
+}*/
+.minus td{
+width:14%;
+height:100%;
+}
+#right1{
+    margin-left:1%;
+}
+#right2{
+    margin-left:10.5%;
+}

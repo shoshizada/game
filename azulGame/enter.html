@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="enter.css" rel="stylesheet" />
+
+    <script src="enter.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=M+PLUS+Rounded+1c:wght@800&family=Secular+One&family=Varela+Round&display=swap');
+    </style>
+</head>
+<body dir="rtl">
+
+    <p>משחק חדש</p>
+    <button id="new">משחק חדש</button>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" method="post">
+            <div class="imgcontainer">
+                <span class="close" title="Close Modal">&times;</span>
+                <img src="images/azulazul.jpg" alt="azul" class="azul" />
+            </div>
+            <div class="container">
+                <label for="uname"><b>שחקן ראשון</b></label>
+                <input type="text" placeholder="Enter Username" name="uname1" required>
+                <label for="uname"><b>שחקן שני </b></label>
+                <input type="text" placeholder="Enter Username" name="uname2" required>
+                <button type="submit">התחל משחק</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" id="close">&times;</a>
+        <div class="overlay-content">
+            <img src="images/Instructions 2.jpg" />
+            <img src="images/Instructions 3.jpg" />
+            <img src="images/Instructions 4.jpg" />
+            <img src="images/Instructions 5.jpg" />
+            <img src="images/Instructions 6.jpg" />
+
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" id="open">הוראות <br />המשחק</span>
+
+</body>
+</html>
